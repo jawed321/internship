@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+    html{
+      scroll-behavior: smooth;
+    }
+    .logo{
+      width: 25px;
+
+    }
+    body{
+      font-size: 1.5rem;
+    }
+    
+@media all and (min-width: 768px){
+ .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-bottom: 0.5rem;
+    padding-top: .5rem;
+    width: 6.5rem;
+}
+ .nav-item{
+  text-align: center;
+}
+
+.nav-link{
+  background-color: white;
+  opacity: 60%;
+  color: black;
+  display: inline-block;
+  margin-left: 0.25rem;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.nav-link:hover{
+  background: yellow;
+  opacity: 100%;
+  transition: 1s;
+  transform: rotate(360deg);
+}
+.nav-link:tab{
+  background: yellow;
+  opacity: 100%;
+}
+#about{
+  height: 50vh;
+}
+@media all and (max-width: 540px){
+  #about{
+    background-color: crimson;
+  }
+  }
+  #image{
+    max-height: 48vh;
+    min-height: 35vh;
+  }
+  #git, #mail, #phone{
+    padding: 1rem;
+    border: 2px solid #f5ba09;
+  }
+  .container{
+    border-radius: 7px;
+  }
+  body{
+    background-color: #7d7dbd;
+  }
+  #active{
+    background-color: #4c4ce8;
+    opacity: 100%;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <nav class="navbar navbar-expand-md bg-light navbar-light rounded mt-2 mb-0">
+  <a class="navbar-brand" href="#"><img class="logo" src="https://st2.depositphotos.com/3867453/9096/v/600/depositphotos_90960394-stock-illustration-letter-j-logo-icon-design.jpg">Personal Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav  ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" id="active" href="mainportfolio.html">Home</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="aboutpage.html">About page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="whatnext.html">What next?</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+<br>
+<div class="bg-dark text-white p-5 text-center rounded">
+  <p class="display-4">Welcome to my page!</p>
+  <p class="display-4 text-warning">I'm Jawed Ahmed</p>
+  <a class="m-2 nav-link" href="#about">About</a>
+  <a class="m-2 nav-link" href="#projects">Projects</a>
+  <a class="m-2 nav-link" href="#contact">Contact</a>
+</div>
+<div id="about" class="container mt-2 bg-warning rounded">
+  <div class="row">
+    <div class="col-lg-4 col-md-4 col-sm-5 col-xs-5 m-auto p-auto text-center">
+      <img id="image" src="hi.png" class="img-fluid m-auto text-center">
+    </div>
+    <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 p-auto pb-4 text-center m-auto">
+      <h1 class="text-success">About Me</h1>
+      <div>My name is Jawed Ahmed. I'm from Odisha. I'm currently pursuing my B.Tech in Instrumentation and Electronics in CET,Bhubaneswar. I'm currently in my 2<sup>nd</sup> year.</div>
+      
+    </div>
+  </div>
+</div>
+<div id="projects" class="container mt-2 pt-3 text-center bg-dark rounded">
+  <h1 class="text-warning mb-3 pb-3">My Projects</h1>
+  <div class="row text-center">
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+      <div class="card text-center m-auto" style="width: 100%;">
+        <img src="https://image.freepik.com/free-vector/man-computer-filling-online-questionnaire-form-survey-vector-flat-concept-feedback-questionnaire-online-survey-report-illustration_53562-6152.jpg" class="card-img-top" style="height: 15rem;">
+  <div class="card-body">
+    <h5 class="card-title">survey form</h5>
+    <p class="card-text">A nice looking form.</p>
+    <a target="_blank" href="freecc2.html" class="btn btn-warning">see</a>
+  </div>
+</div>
+    </div>
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+      <div class="card text-center m-auto" style="width: 100%;">
+        <img src="https://png.pngtree.com/element_origin_min_pic/16/10/11/1457fc8545ae368.jpg" class="card-img-top" style="height: 15rem;">
+  <div class="card-body">
+    <h5 class="card-title">tribute page</h5>
+    <p class="card-text">A demo tribute page.</p>
+    <a target="_blank" href="freecc1.html" class="btn btn-warning">see</a>
+
+  </div>
+
+  </div>
+</div>
+<div class="col-lg-4 col-md-6 col-sm-12 mb-3">
+      <div class="card text-center m-auto" style="width: 100%;">
+        <img src="https://media.istockphoto.com/vectors/programming-javascript-or-html-code-on-laptop-computer-screen-or-php-vector-id1225018969" class="card-img-top" style="height: 15rem;">
+  <div class="card-body">
+    <h5 class="card-title">a responsive html page</h5>
+    <p class="card-text">A page that is responsive.</p>
+    <a target="_blank" href="courseraproject1.html" class="btn btn-warning">see</a>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+<div id="contact" class="container bg-warning text-center mt-2 mb-3 rounded">
+    <h1 class="text-dark">Contact</h1>
+    <div class="row text-center m-auto pb-2">
+      <div id="git" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 bg-light mb-2 rounded text-center">
+        <div class="row">
+          <div class="col-4">
+            <i class="fab fa-github-square"></i>
+          </div>
+           <div class="col-6">
+            <h3 class="text-dark"><a href="https://github.com/">Github</h3></a>
+          </div>
+
+          </div>
+          
+        </div>
+        <div id="mail" class="col-lg-4 col-md-6 col-sm-12 col-xs-12 text-center bg-light mb-2 rounded">
+        <div class="row text-center">
+          <div class="col-2">
+            <i class="fas fa-envelope"></i>
+          </div>
+           <div class="col-7">
+            <h3 class="text-dark">jawed@gmail.com</h3>
+          </div>
+      </div>
+    </div>
+     <div id="phone" class=" text-center col-lg-4 col-md-6 col-sm-12 col-xs-12 bg-light mb-2 rounded">
+        <div class="row">
+          <div class="col-4">
+            <i class="fas fa-phone-alt"></i>
+          </div>
+           <div class="col-6">
+            <h3 class="text-dark">0123456789</h3>
+          </div>
+  </div>
+</div> 
+
+</div>
+
+</div>
+ <footer>
+    <div class="container text-center m-auto p-1">
+      <h5>Copyright &copy; 2021 | Jawed</h5>
+    </div>
+  </footer>
+</div>
+</div>
+</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+</body>
+</html>

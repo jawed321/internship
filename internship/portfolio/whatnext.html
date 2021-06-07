@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/996973c893.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <style>
+  	 html{
+      scroll-behavior: smooth;
+    }
+    .logo{
+      width: 25px;
+
+    }
+    body{
+      font-size: 1.5rem;
+    }
+    
+@media all and (min-width: 768px){
+ .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+    padding-bottom: 0.5rem;
+    padding-top: .5rem;
+    width: 6.5rem;
+}
+ .nav-item{
+  text-align: center;
+}
+
+.nav-link{
+  background-color: white;
+  opacity: 60%;
+  color: black;
+  display: inline-block;
+  margin-left: 0.25rem;
+  margin-bottom: 0%;
+  margin-top: 0%;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.nav-link:hover{
+  background: yellow;
+  opacity: 100%;
+  transition: 1s;
+  transform: rotate(360deg);
+}
+.nav-link:tab{
+  background: yellow;
+  opacity: 100%;
+}
+ #active{
+    background-color: #4c4ce8;
+    opacity: 100%;
+  }
+  </style>
+ </head>
+ <body class="bg-success">
+ 	<div class="container">
+    <nav class="navbar navbar-expand-md bg-light navbar-light rounded mt-2 mb-0">
+  <a class="navbar-brand" href="#"><img class="logo" src="https://st2.depositphotos.com/3867453/9096/v/600/depositphotos_90960394-stock-illustration-letter-j-logo-icon-design.jpg">Personal Portfolio</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav  ml-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="mainportfolio.html">Home</a>
+      </li> 
+      <li class="nav-item">
+        <a class="nav-link" href="aboutpage.html">About page</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="active" href="whatnext.html">What next?</a>
+      </li>   
+    </ul>
+  </div>  
+</nav>
+<div class="container bg-info rounded mt-2">
+ 	<h1 class="text-danger text-center"><u>What next for me?</u></h1>
+ 	<div class="pb-2"><h3>Currently I'm focusing on learning Javascript which is a necessary language in the field of web development. Then my aim will be to learn Django for back-end development. I'm looking forward to create a full stack website.</h4></div>
+ </div>
+  <footer>
+    <div class="container text-center m-auto p-1">
+      <h5>Copyright &copy; 2021 | Jawed</h5>
+    </div>
+  </footer>
+ 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>  
+ </body>
+ </html>
