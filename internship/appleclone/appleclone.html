@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lan="en">
+<head>
+	<meta charset="utf-8">
+	<meta name='viewport' content='width=device-width,initial scale=1'>
+	<title>Apple Clone</title>
+	<style>
+		body{
+			margin: 0;
+			font-family: sans-serif;
+		}
+		.main{
+			margin-top: 40px;
+			width: 100%;
+		}
+		#p2{
+			text-align: center;
+			background-color: #1313da;
+			color: white;
+			padding: 10px;
+			font-size: 17px;
+			margin-top: 15px;
+			margin-bottom: 0px;
+			
+		}
+		nav{
+			background-color: #1d1d1f;
+			padding: 11px;
+			text-align: center;
+			position: fixed;
+			overflow: hidden;
+			width: 100%;
+			top: 0;		
+		}
+		nav a{
+			text-decoration: none;
+			color: white;
+			font-size: 15px;
+            margin: 4%;
+		
+		}
+		#p1{
+			text-align: center;
+			background-color: #f1ebeb;
+			color: #a2a0a0;
+			padding: 10px;
+			font-size: 15px;
+			margin-top: 0px;
+			
+		}
+		section{
+			text-align: center;
+			margin-top: 0px;
+			font-size: 25px;
+			padding: 2px;
+		}
+		section p{
+			font-size: 18px;
+			color: gray;
+
+		}
+		section a{
+			margin-left: 4px;
+			margin-right: 4px;
+		}
+		#img1{
+			
+			width: 83%;
+		}
+		#iphone{
+			margin-bottom: 0px;
+		}
+		.fill{
+			display: block;
+			height: 100%;
+			width: 100%;
+			text-decoration: none;
+		}
+		#sec2,#sec3{
+			background-color: black;
+		
+		}
+		#sec3{
+			margin-top: 0.8%;
+		}
+		#img2{
+			width: 100%;
+			margin-bottom: 2%;
+		}
+		@media all and (max-width: 663px)
+		{
+			nav a{
+				margin: 1%;
+				font-size: 13px;
+			}
+		}
+		@media all and (max-width: 734px)
+		{
+		
+			#flexbox{
+				flex-direction: column;
+			}
+			#flexbox1{
+				flex-direction: column;
+			}
+			
+		}
+		#img3{
+			width: 50%;
+		}
+		#sec4, #img4{
+			width: 99%;
+			margin-top: 0.8%;
+			display: inline-block;
+		}
+		#sec5{
+			width: 99%;
+			margin-top: 0.8%;
+			display: inline-block;
+		}
+		#flexbox{
+			display: flex;
+			background-color: white;
+		}
+		#flexbox1 div{
+			width: 99%;
+			margin-top: 0.8%;
+			display: inline-block;
+		}
+		#flexbox1{
+			display: flex;
+			background-color: rgb(245, 245, 247);
+		}
+		#sec6{
+			font-size: 14px;
+			color: gray;
+			text-align: left;
+			background-color: rgb(245, 245, 247);
+			color: rgb(29, 29, 31);
+			font-family: sans-serif;
+		}
+		li{
+			margin: 10px;
+		}
+		#sec6 p{
+			margin-left: 10px;
+		}
+		#foot1 p{
+			margin-bottom: 1%;
+			margin-top: 1%
+		}
+	</style>
+</head>
+<body>
+	<nav>
+		<a href="">Mac</a>
+		<a href="">iPad</a>
+		<a href="">iPhone</a>
+		<a href="">Watch</a>
+		<a href="">TV</a>
+		<a href="">Music</a>
+		<a href="">Support</a>
+	</nav>
+	<div class="main">
+	<p id="p2">Evaluate Covid-19 Symptoms and Understand next steps ></p>
+	<p id="p1">Shop now at the Apple Store online with many great ways to buy. Get free, no-contact delivery, Specialist help and <a href="">more ></a></p>
+	<section onclick="location.href='https://www.apple.com/in/';"style="cursor:pointer;">
+		<a href="#" class="fill"></a>
+		<h1 id="iphone">iPhone 12</h1>
+		<p id="p3"style="font-weight: bold;font-size: 20px">Blast Past Fast.<p>
+		<p id="p4">From ₹8227/month1 or ₹69900* before trade-in.</p>
+		<a href="">learn more</a>
+		<a href="">Buy</a><br>
+		<img id="img1" src="https://www.apple.com/newsroom/images/product/iphone/geo/apple_iphone-12_new-design_geo_10132020.jpg.og.jpg?202101270349">
+	</section>
+	<section id="sec2">
+		<h1 style="color: white">iPhone 12 Pro</h1>
+		<p id="p3"style="font-weight: bold;font-size: 20px">Its a leap year.<p>
+		<p id="p4">From ₹14111/month1 or ₹119900* before trade-in.</p>
+		<a id="link22" href="">learn more</a>
+		<a href="">Buy</a><br>
+		<img id="img2" src="Screenshot (31).png">
+		
+	</section>
+	<section id="sec3">
+		<h1 style="color: white">Watch</h1>
+		<p id="p3"style="font-weight: bold;font-size: 20px">Series 6<p>
+		<p id="p4">The future of health is in your list..</p>
+		<a id="link33" href="">learn more</a>
+		<a href="">Buy</a><br>
+		<img id="img3" width="50%" src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/apple-watch-6s-202009?wid=1200&hei=630&fmt=jpeg&qlt=95&op_usm=0.5,0.5&.v=1599936770000">
+		
+	</section>
+	<div id="flexbox">
+	<section style="background-color: #dad7d726" id="sec4">
+		<h1 style="color: gray">iPad Air</h1>
+		<p id="p4">Powerful.Colorful.Wonderful</p>
+		<a id="link33" href="">learn more</a>
+		<a href="">Buy</a><br>
+		<img id="img4" style="width: 55%" src="https://i.ytimg.com/vi/r_VSll0WLZE/maxresdefault.jpg">
+	</section>
+	<section style="background-color: black" id="sec5">
+		<h1 style="color: gray">Macbook Air</h1>
+		<p id="p4">Power. Its in the air</p>
+		<a id="link33" href="">learn more</a>
+		<a href="">Buy</a><br>
+		<img id="img5" style="width: 55%;margin-top: 12%;text-align: center;" src="https://www.apple.com/v/macbook-air/j/images/overview/hero_endframe__ea0qze85eyi6_large_2x.jpg">
+	</section>
+</div>
+<section id="sec6">
+		<p>*Listed pricing is maximum retail price(inclusive of all taxes)</p>
+		<ol>
+			<li> Monthly pricing is after purchase using credit card EMI at 14% p.a over a 9 month tenure. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your bank, subject to your bank’s terms and conditions.<br>Representative example: Based on purchase of ₹69900. Total amount payable ₹74041 paid over 9 months as 9 monthly payments of ₹8227 at an interest rate of 14% p.a. Total interest paid to bank: ₹4141.</li>
+			<li>Monthly pricing is after purchase using credit card EMI at 14% p.a over a 9 month tenure. Monthly pricing is rounded to the nearest rupee. Exact pricing will be provided by your bank, subject to your bank’s terms and conditions.<br>Representative example: Based on purchase of ₹119900. Total amount payable ₹127002 paid over 9 months as 9 monthly payments of ₹14111 at an interest rate of 14% p.a. Total interest paid to bank: ₹7102.</li>
+			<li> The Apple One free trial includes only services that you are not currently using through a free trial or a subscription. Plan automatically renews after trial until cancelled. Restrictions and other terms apply.<br>Apple TV+ is ₹99/month after free trial. One subscription per Family Sharing group. Offer is valid for 3 months after eligible device activation. Plan automatically renews until cancelled. Restrictions and other terms apply.</li>
+		</ol>
+		<hr style="margin-left: 20px;margin-right: 20px">
+		<div id="flexbox1">
+			<div id="foot1">
+				<details>
+				<summary style="color: black">shop and learn</summary>
+				<p>
+				<p>Mac</p><br>
+				<p>Ipad</p><br>
+				<p>iPhone</p><br>
+				<p>TV</p><br>
+				<p>Music</p><br>
+				<p>Airpods</p><br>
+			</p>
+		</details>
+			</div>
+		<div id="foot1">
+				<details>
+				<summary style="color: black">Account</summary>
+				<p>
+				<p>Mac</p><br>
+				<p>Ipad</p><br>
+				<p>iPhone</p><br>
+				<p>TV</p><br>
+				<p>Music</p><br>
+				<p>Airpods</p><br>
+			</p>
+		</details>
+			</div>
+		<div id="foot1">
+				<details>
+				<summary style="color: black">services</summary>
+				<p>
+				<p>Mac</p><br>
+				<p>Ipad</p><br>
+				<p>iPhone</p><br>
+				<p>TV</p><br>
+				<p>Music</p><br>
+				<p>Airpods</p><br>
+			</p>
+		</details>
+			</div>
+		<div id="foot1">
+				<details>
+				<summary style="color: black">Apple store</summary>
+				<p>
+				<p>Mac</p><br>
+				<p>Ipad</p><br>
+				<p>iPhone</p><br>
+				<p>TV</p><br>
+				<p>Music</p><br>
+				<p>Airpods</p><br>
+			</p>
+		</details>
+			</div>
+		<div id="foot1">
+				<details>
+				<summary style="color: black">For Business</summary>
+				<p>
+				<p>Mac</p><br>
+				<p>Ipad</p><br>
+				<p>iPhone</p><br>
+				<p>TV</p><br>
+				<p>Music</p><br>
+				<p>Airpods</p><br>
+			</p>
+		</details>
+			</div>
+		<div id="foot1">
+				<details>
+				<summary style="color: black">Apple values</summary>
+				<p>
+				<p>Mac</p><br>
+				<p>Ipad</p><br>
+				<p>iPhone</p><br>
+				<p>TV</p><br>
+				<p>Music</p><br>
+				<p>Airpods</p><br>
+			</p>
+		</details>
+			</div>
+			
+		</div>
+		<hr>
+		<footer>
+    <footer>
+      <h3 style="text-align: center;color: blue">Copyright &copy; 2021 | Jawed Ahmed</h3>
+    </div>
+  </footer>
+	</section>
+</div>
+</body>
+</html>
